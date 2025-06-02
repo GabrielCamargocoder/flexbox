@@ -30,7 +30,7 @@ main > div.menu {
     
     background-color: lightblue;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content:center;
     justify-items: center; 
     
@@ -45,7 +45,7 @@ main > div.menu> nav > a{
     color: white;
     font-weight: 400;
     text-decoration: none;
-    width: 200px;
+    width: 245px;
     align-items: center;
     border-radius: 5px;
     text-align: center;
