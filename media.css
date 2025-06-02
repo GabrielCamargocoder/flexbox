@@ -11,7 +11,7 @@
         
     }
     
-    main > div > nav > a{
+    main > div.menu > nav > a{
         background-color:#05294a;
         width: 100px;
         padding: 60px;
@@ -21,7 +21,7 @@
         transition: transform 0.3s ease-in-out;
     }
 
-    main > div > nav > a:hover{
+    main > div.menu > nav > a:hover{
 
         background-color:#014584;
         border: 1px solid black;
@@ -30,4 +30,46 @@
          
         transform: translateY(-3px) ;
     }
+
+       .container{
+        width: 90vw;
+        padding: 15px;
+        height: 200px;
+    }
+
+
+    .container > .img-produto{
+        float: left;
+        width: 200px;
+        height: 100px;
+
+    }
+
+    .container > .descricao-produto{
+        width: 80vw;
+        margin-top: 10px;
+        
+    }
+    
+    .container > .descricao-produto > h2{
+        
+        margin-bottom: 10px;
+    }
+    .container > .valor-produto{
+
+        text-align: left;  
+        font-size: 1.5em;  
+    }
+
+    .container > .btn-comec{
+        margin-top: -40px;
+    }
+    .container > .btn-comec > a{
+
+        width: 200px;
+    }
+   
+
+  
 }
+

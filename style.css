@@ -21,9 +21,9 @@ main{
     height: 100vh;
 }
 
-main > div {
+main > div.menu {
     
-    
+    background-color: lightblue;
     display: flex;
     flex-flow: row nowrap;
     justify-content:center; 
@@ -31,7 +31,7 @@ main > div {
 }
 
 
-main > div> nav > a{
+main > div.menu> nav > a{
     display: inline-block;
     padding: 10px;
     background-color: #05294a;
@@ -52,12 +52,73 @@ main > div> nav > a{
 
 }
 
-main > div > nav > a:hover{
+main > div.menu > nav > a:hover{
 
    
     
     background-color: #08437b;
     transition: background-color .3s;
+    
+    
+}
+
+.container{
+    margin: auto;
+    height: 600px;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container > .img-produto{
+    background: url(imagem_empreend-p.jpg) no-repeat center center;
+    background-size: contain;
+    display: block;
+    height: 300px;
+}
+
+.container > .descricao-produto > h2{
+    color:white;
+    font-size: 2em;
+    font-weight: 400;
+
+}
+
+.container > .descricao-produto  > p{
+
+    color: white;
+    text-align: justify;
+
+}
+
+
+
+.container > .valor-produto > span{
+    display:block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    color: white;
+    font-weight: 300;
+    margin-right: 100px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+
+
+
+.container > .btn-comec > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+   
+   
     
     
 }
