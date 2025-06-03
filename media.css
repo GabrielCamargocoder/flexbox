@@ -12,7 +12,7 @@
     }
 
    
-
+    
 
     
     
@@ -70,12 +70,19 @@
     }
 
     .container > .btn-comec{
+        
         margin-top: -40px;
-        width: 200px;
-        margin-left: -300px;
+        width: 40vw;
+       
     }
    
-   
+   .container > .btn-comec > a{
+        
+        text-align: center;
+        width: 200px;
+        
+               
+   }    
 
   
 }
