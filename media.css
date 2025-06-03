@@ -6,19 +6,25 @@
        
         height: 200px;
         align-items: center;
-        
-        justify-content: center   ;
+        justify-content: sap;
+        justify-items: center   ;
         
     }
+
+   
+
+
+    
     
     main > div.menu > nav > a{
         background-color:#05294a;
-        width: 100px;
+       
         padding: 60px;
         margin: 0px 10px 0px 10px;
         margin-top: 10px;
         position: relative;
         transition: transform 0.3s ease-in-out;
+        flex: 0 0 100px;
     }
 
     main > div.menu > nav > a:hover{
@@ -42,13 +48,14 @@
     .container > .img-produto{
         float: left;
         width: 200px;
-        height: 100px;
+        height: 120px;
 
     }
 
     .container > .descricao-produto{
         width: 80vw;
         margin-top: 10px;
+       
         
     }
     
@@ -56,19 +63,18 @@
         
         margin-bottom: 10px;
     }
-    .container > .valor-produto{
-
-        text-align: left;  
-        font-size: 1.5em;  
+    .container > .valor-produto> span{
+        width: 90vw;
+        text-align: right;  
+        font-size: 2em;  
     }
 
     .container > .btn-comec{
         margin-top: -40px;
-    }
-    .container > .btn-comec > a{
-
         width: 200px;
+        margin-left: -300px;
     }
+   
    
 
   
