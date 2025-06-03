@@ -28,30 +28,30 @@ main{
 
 main > div.menu {
     
-   
+
     display: flex;
-    flex-flow: row wrap;
-    justify-content:center;
+    flex-flow: row nowrap;
+    justify-content: center;
     justify-items: center; 
     
 }
 
 
 main > div.menu> nav > a{
-    display: inline-block;
+    display: inline-block ;
     padding: 10px;
     background-color: #05294a;
     margin: 10px;
     color: white;
     font-weight: 400;
     text-decoration: none;
-    width: 245px;
+    width: 260px;
     align-items: center;
     border-radius: 5px;
     text-align: center;
     justify-items: center;
-   
-   
+    
+    
        
 
 
