@@ -113,14 +113,15 @@ main > div.menu > nav > a:hover{
 
 
 .container > .btn-comec > a{
-    display: block;
+    display:block;
     text-decoration: none;
     color: white;
+    margin: auto;
     padding: 10px;
     text-align: center;
     background-color: rgb(12, 12, 12);
     margin-top: 20px;
-   
+    
    
     
     
