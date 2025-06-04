@@ -53,8 +53,10 @@
     }
 
     .container > .descricao-produto{
-        width: 70vw;
+        width: 60vw;
         margin-top: -10px;
+        margin-left: 240px;
+        
 
        
         
@@ -72,9 +74,10 @@
         margin-top: 40px;  
     }
 
-    .container > .btn-comec{
+    .container > .btn-comec >a{
         margin-top: -80px;
         width: 200px;
+        margin-left: 240px;
     }
   
 }
