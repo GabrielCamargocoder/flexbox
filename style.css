@@ -77,7 +77,7 @@ main > div.menu > nav > a:hover{
     background: url(imagem_empreend-p.jpg) no-repeat center center;
     background-size: contain;
     display: block;
-    height: 300px;
+    height: 200px;
 }
 
 .container > .descricao-produto > h2{
